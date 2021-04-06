@@ -4,4 +4,6 @@
                :sdl2-ttf
                :swank
                :bordeaux-threads)
-  :components ((:file "src/main")))
+  :pathname "src"
+  :serial t
+  :components ((:file "main")))
