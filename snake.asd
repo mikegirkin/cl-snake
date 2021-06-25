@@ -18,5 +18,6 @@
                :rove)
   :pathname "test"
   :components ((:file "main")
-               (:file "player-input"))
+               (:file "player-input")
+               (:file "gamestate"))
   :perform (test-op (op c) (symbol-call :rove '#:run c)))
